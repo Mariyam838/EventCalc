@@ -1,9 +1,20 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.EventCalc" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.EventCalc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#C39BD3</item>
+        <item name="colorPrimaryVariant">#A7C7E7</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
 
-    <style name="Theme.EventCalc" parent="Base.Theme.EventCalc" />
+    <!-- Splash screen theme -->
+    <style name="Theme.EventCalc.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/gradient_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/poppers</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.EventCalc</item>
+    </style>
 </resources>
