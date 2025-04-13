@@ -6,6 +6,8 @@
     <string name="reset_form">Reset Form</string>
     <string name="print">Print</string>
     <string name="save_pdf">Save PDF</string>
+    <string name="plan_your_event_budget">Plan Your Event Budget</string>
+    <string name="smart_budget_estimates_for_your_next_celebration">Smart budget estimates for your next celebration</string>
 
     <!-- Arrays for Spinners -->
     <string-array name="event_styles">

@@ -36,13 +36,13 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_target" />
+                        android:src="@drawable/target_hit_aim_svgrepo_com" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:text="Plan Your Event Budget"
+                        android:text="@string/plan_your_event_budget"
                         android:textColor="#333333"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Smart budget estimates for your next celebration"
+                    android:text="@string/smart_budget_estimates_for_your_next_celebration"
                     android:textColor="#666666"
                     android:textSize="14sp" />
             </LinearLayout>
